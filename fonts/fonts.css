@@ -1,4 +1,4 @@
-@font-face { 
+@font-face {
   font-family: 'montserrat-font';
   src:
     url('/fonts/bold/montserrat-bold-webfont.woff2') format('woff2'),
@@ -6,21 +6,21 @@
   font-display: swap;
   font-weight: bold;
   font-style: normal;
- }
+}
 
 @font-face {
   font-family: 'montserrat-font';
-  src: 
+  src:
     url('/fonts/regular/montserrat-regular-webfont.woff2') format('woff2'),
     url('/fonts/regular/montserrat-regular-webfont.woff') format('woff');
   font-display: swap;
   font-weight: normal;
   font-style: normal;
- }
+}
 
 @font-face {
   font-family: 'montserrat-font';
-  src: 
+  src:
     url('/fonts/medium/montserrat-medium-webfont.woff2') format('woff2'),
     url('/fonts/medium/montserrat-medium-webfont.woff') format('woff');
   font-display: swap;
