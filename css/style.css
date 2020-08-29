@@ -1,1 +1,6 @@
-
+html,
+body {
+  font-family: montserrat-font, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
