@@ -55,7 +55,7 @@ a {
   position: relative;
   margin-right: 30px;
   line-height: 18px;
-  color: #000000;
+  color: #000;
 }
 
 .menu__link:last-child {
@@ -168,7 +168,7 @@ a {
 }
 
 .order-button-red {
-  color: #E51937;
+  color: #e51937;
 }
 
 .arrow-downd {
