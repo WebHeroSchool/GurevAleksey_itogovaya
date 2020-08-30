@@ -27,3 +27,13 @@
   font-weight: medium;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'montserrat-font';
+  src:
+    url('/fonts/light/montserrat-extralight-webfont.woff2') format('woff2'),
+    url('/fonts/light/montserrat-extralight-webfont.woff') format('woff');
+  font-display: swap;
+  font-weight: lighter;
+  font-style: normal;
+}
