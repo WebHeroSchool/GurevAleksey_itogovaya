@@ -11,7 +11,7 @@
 
 <body>
 	<header class="header">
-		<div class="container">
+		<div class="container container-header">
 			<a class="link-logo" href="#">
 				<img class="link-logo__img" src="/img/Tesla-Wordmark-Red.png" alt="logo">
 			</a>
@@ -34,26 +34,33 @@
 		<div class="container">
 			<section class="main-section">
 				<h1 class="main-title">Model S</h1>
-				<span class="discription-title">Добро пожаловать в будущее!</span>
-				<img class="main-section__img-title" src="/img/Tesla-Wordmark.png" alt="надпись тесла">
-				<img class="main-section__img-car" src="/img/tesla-png-tesla-png-hd-1636.png" alt="фото теслы модел с">
+				<p class="discription-title">Добро пожаловать в будущее!</p>
+				<figure class="container-image">
+					<img class="main-section__img-car" src="/img/tesla-png-tesla-png-hd-1636.png" alt="фото теслы модел с">
+				</figure>
 				<ul class="special-list">
 					<li class="special-list__item">
-						<p>2,7 сек</p>
-						<span>0-100 км/час</span>
+						<p class="special-list-text">2,7 
+							<span class="special-list-text__description">сек</span>
+						</p>
+						<span class="special-list-description">0-100 км/час</span>
 					</li>
 					<li class="special-list__item">
-						<p>632 км</p>
-						<span>запас хода</span>
+						<p class="special-list-text">632
+							<span class="special-list-text__description">км</span>
+						</p>
+						<span class="special-list-description">запас хода</span>
 					</li>
 					<li class="special-list__item">
-						<p>тест драйв</p>
+						<p class="test-drive-text">тест драйв</p>
 					</li>
 					<li class="special-list__item">
 						<button class="btn order-button-red">Заказать</button>
 					</li>
 				</ul>
-				<img class="arrow-downd" src="/img/Vector.svg" alt="стрелка вниз">
+				<a class="arrow-downd" href="#">
+					<img src="/img/Vector.svg" alt="стрелка вниз">
+				</a>
 			</section>
 
 			<section class="future-drive">
