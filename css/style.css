@@ -262,7 +262,7 @@
     line-height: 24px;
     font-weight: normal;
   }
-  
+
   .future-drive-list__item:nth-child(1) {
     margin-bottom: 20px;
     padding-left: 60px;
@@ -722,7 +722,7 @@
     padding: 15px 55px;
     color: #fff;
     background-color: #e51937;
-    border: 2px solid #FFF;
+    border: 2px solid #fff;
   }
 
   .safe-car {
@@ -730,7 +730,6 @@
     display: flex;
     flex-direction: column-reverse;
     height: 100%;
-
   }
 
   .safe-car-article {
@@ -796,8 +795,6 @@
 
   .container-safe-text {
     width: 380px;
-    text-align: center;
-    
   }
 
   .safe-p {
@@ -826,10 +823,6 @@
     margin-right: 10px;
     padding-top: 7px;
     text-transform: uppercase;
-  }
-
-  .article-footer {
-    margin-bottom: 40px;
   }
 
   .footer-link {
