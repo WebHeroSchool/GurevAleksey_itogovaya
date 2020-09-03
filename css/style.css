@@ -97,7 +97,6 @@
     text-align: center;
     background-image: url(/img/Tesla-Wordmark-Red_iphone.png);
     background-repeat: no-repeat;
-    margin-bottom: 15px;
   }
 
   .main-section__img-car {
@@ -107,6 +106,7 @@
   }
 
   .special-list {
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     max-width: 375px;
@@ -179,6 +179,238 @@
   .arrow-downd:hover {
     transform: scale(1.2);
   }
+
+  .future-drive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .future-drive__title {
+    display: none;
+    position: absolute;
+    margin: 0 50px 0 auto;
+    left: 420px;
+    font-size: 70px;
+    line-height: 85px;
+    color: #e51937;
+  }
+
+  .future-drive__img {
+    width: 100%;
+  }
+
+  .future {
+    background-color: #e51937;
+    color: #fff;
+  }
+
+  .container-future {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .tittle-article {
+    margin: 0 0 5px 0;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .article-text {
+    max-width: 300px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: lighter;
+  }
+
+  .future-drive-list {
+    display: none;
+  }
+
+  .future-drive-list__item {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .fruture-text {
+    margin: 0;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: bold;
+  }
+
+  .fruture-text-description {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+
+  .fruture-description {
+    max-width: 140px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: lighter;
+  }
+
+  .fruture-text-description-wifi {
+    margin: 0;
+    max-width: 150px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+  
+  .future-drive-list__item:nth-child(1) {
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(/img/screen.svg);
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+  }
+
+  .future-drive-list__item:nth-child(2) {
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(/img/wifi.svg);
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+  }
+
+  .future-drive-list__item:nth-child(3) {
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(/img/bag.svg);
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+  }
+
+  .article-footer {
+    display: none;
+  }
+
+  .text-info {
+    margin-right: 35px;
+    padding-top: 7px;
+  }
+
+  .order-button-white {
+    padding: 15px 55px;
+    color: #fff;
+    background-color: #e51937;
+    border: 2px solid #FFF;
+  }
+
+  .safe-car {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+
+  }
+
+  .safe-car-article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e51937;
+    color: #fff;
+  }
+
+  .container-safe-list {
+    display: none;
+    margin-bottom: 50px;
+  }
+
+  .safe-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .second-title {
+    margin-bottom: 30px;
+  }
+
+  .safe-list__item {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .safe-list-text {
+    margin: 0;
+    padding-top: 5px;
+    width: 120px;
+  }
+
+  .model-img {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    top: 50px;
+    left: 30px;
+  }
+
+  .model-img-car {
+    order: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-safe-star {
+    display: none;
+    margin-bottom: 50px;
+    background-image: url(/img/security.svg);
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+  }
+
+  .container-safe-text {
+    margin: 0 auto;
+    width: 316px;
+  }
+
+  .safe-text {
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 80px;
+    font-size: 50px;
+    line-height: 61px;
+    font-weight: bold;
+  }
+
+  .safe-text-description {
+    margin: 0;
+    padding-left: 80px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: medium;
+  }
+
+  .article-footer-text {
+    margin-right: 10px;
+    padding-top: 7px;
+    text-transform: uppercase;
+  }
+
+  .article-footer {
+    margin-bottom: 40px;
+  }
+
+  .footer-link {
+    display: none;
+    margin-left: auto;
+    align-self: flex-end;
+  }
+
 }
 
 @media (min-width: 377px) and (max-width: 768px) {
@@ -255,6 +487,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 70px;
   }
 
   .main-title {
@@ -359,6 +592,256 @@
   .arrow-downd:hover {
     transform: scale(1.2);
   }
+  .future-drive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .future-drive__title {
+    position: absolute;
+    margin: 0 50px 0 auto;
+    left: 420px;
+    font-size: 70px;
+    line-height: 85px;
+    color: #e51937;
+  }
+
+  .future-drive__img {
+    width: 100%;
+  }
+
+  .future {
+    background-color: #e51937;
+    color: #fff;
+  }
+
+  .container-future {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .container-text {
+    margin-right: 100px;
+  }
+
+  .tittle-article {
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .article-text {
+    max-width: 300px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: lighter;
+  }
+
+  .future-drive-list {
+    margin-bottom: 50px;
+    padding: 25px 0 0 0; 
+    list-style-type: none;
+  }
+
+  .future-drive-list__item {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .fruture-text {
+    margin: 0;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: bold;
+  }
+
+  .fruture-text-description {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+
+  .fruture-description {
+    max-width: 140px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: lighter;
+  }
+
+  .fruture-text-description-wifi {
+    margin: 0;
+    max-width: 150px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+  
+  .future-drive-list__item:nth-child(1) {
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(/img/screen.svg);
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+  }
+
+  .future-drive-list__item:nth-child(2) {
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(/img/wifi.svg);
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+  }
+
+  .future-drive-list__item:nth-child(3) {
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(/img/bag.svg);
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+  }
+
+  .article-footer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: url(/img/i.svg);
+    background-repeat: no-repeat;
+    background-position-y: 17px;
+  }
+
+  .text-info {
+    margin-right: 35px;
+    padding-top: 7px;
+  }
+
+  .order-button-white {
+    padding: 15px 55px;
+    color: #fff;
+    background-color: #e51937;
+    border: 2px solid #FFF;
+  }
+
+  .safe-car {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+
+  }
+
+  .safe-car-article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e51937;
+    color: #fff;
+  }
+
+  .container-safe-list {
+    margin-bottom: 50px;
+  }
+
+  .safe-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .second-title {
+    margin-bottom: 30px;
+  }
+
+  .safe-list__item {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .safe-list-text {
+    margin: 0;
+    padding-top: 5px;
+    width: 120px;
+  }
+
+  .model-img {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    top: 50px;
+    left: 100px;
+  }
+
+  .model-img-car {
+    order: 0;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-safe-star {
+    display: none;
+    margin-bottom: 50px;
+    background-image: url(/img/security.svg);
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+  }
+
+  .container-safe-text {
+    width: 380px;
+    text-align: center;
+    
+  }
+
+  .safe-p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .safe-text {
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 80px;
+    font-size: 50px;
+    line-height: 61px;
+    font-weight: bold;
+  }
+
+  .safe-text-description {
+    margin: 0;
+    padding-left: 80px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: medium;
+  }
+
+  .article-footer-text {
+    margin-right: 10px;
+    padding-top: 7px;
+    text-transform: uppercase;
+  }
+
+  .article-footer {
+    margin-bottom: 40px;
+  }
+
+  .footer-link {
+    display: none;
+    margin-left: auto;
+    align-self: flex-end;
+  }
 }
 
 @media (min-width: 769px) {
@@ -391,7 +874,7 @@
   }
 
   .header {
-    margin-bottom: 45px;
+    margin-bottom: 10px;
   }
 
   .container {
@@ -452,6 +935,7 @@
     align-items: center;
     background-image: url(/img/Tesla-Wordmark.png);
     background-repeat: no-repeat;
+    margin-bottom: 70px;
   }
 
   .main-title {
@@ -465,6 +949,10 @@
     margin: 0;
     font-weight: medium;
     line-height: 18px;
+  }
+
+  .container-image {
+    margin: 0;
   }
 
   .main-section__img-car {
@@ -543,5 +1031,236 @@
   .arrow-downd:hover {
     transform: scale(1.2);
   }
-}
 
+  .future-drive {
+    display: flex;
+    min-height: 900px;
+    background-image: url(/img/2013-tesla-model-s-cockpit.png);
+    background-repeat: no-repeat;
+    background-position-y: 56px;
+  }
+
+  .future-drive__title {
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 80px;
+    font-size: 70px;
+    line-height: 85px;
+    color: #e51937;
+  }
+
+  .future {
+    margin-left: auto;
+    width: 440px;
+    background-color: #e51937;
+    color: #fff;
+  }
+
+  .container-future {
+    margin: 0 auto;
+    max-width: 316px;
+  }
+
+  .tittle-article {
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .article-text {
+    max-width: 300px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: lighter;
+    margin-bottom: 100px;
+  }
+
+  .future-drive__img {
+    display: none;
+  }
+
+  .future-drive-list {
+    margin-bottom: 150px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .future-drive-list__item {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .fruture-text {
+    margin: 0;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: bold;
+  }
+
+  .fruture-text-description {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+
+  .fruture-description {
+    max-width: 140px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: lighter;
+  }
+
+  .fruture-text-description-wifi {
+    margin: 0;
+    max-width: 150px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+  
+  .future-drive-list__item:nth-child(1) {
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(/img/screen.svg);
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+  }
+
+  .future-drive-list__item:nth-child(2) {
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(/img/wifi.svg);
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+  }
+
+  .future-drive-list__item:nth-child(3) {
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(/img/bag.svg);
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+  }
+
+  .article-footer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: url(/img/i.svg);
+    background-repeat: no-repeat;
+    background-position-y: 17px;
+  }
+
+  .text-info {
+    margin-right: 15px;
+    padding-top: 7px;
+  }
+
+  .order-button-white {
+    padding: 15px 38px;
+    color: #fff;
+    background-color: #e51937;
+    border: 2px solid #FFF;
+  }
+
+  .safe-car {
+    position: relative;
+    display: flex;
+  }
+
+  .safe-car-article {
+    min-width: 440px;
+    background-color: #e51937;
+    color: #fff;
+  }
+
+  .article-text {
+    margin-bottom: 50px;
+  }
+
+  .safe-list {
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .second-title {
+    margin-bottom: 50px;
+  }
+
+  .safe-list__item {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .safe-list-text {
+    margin: 0;
+    padding-top: 5px;
+    width: 120px;
+  }
+
+  .model-img {
+    position: absolute;
+    top: 120px;
+    left: 650px;
+  }
+
+  .model-img-car {
+    position: absolute;
+    height: auto;
+    width: 75%;
+    top: 140px;
+    left: 350px;
+  }
+
+  .container-safe-star {
+    margin-bottom: 50px;
+    background-image: url(/img/security.svg);
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+  }
+
+  .safe-text {
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 80px;
+    font-size: 50px;
+    line-height: 61px;
+    font-weight: bold;
+  }
+
+  .safe-text-description {
+    margin: 0;
+    padding-left: 80px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: medium;
+  }
+
+  .article-footer-text {
+    margin-right: 10px;
+    padding-top: 7px;
+    text-transform: uppercase;
+  }
+
+  .article-footer {
+    margin-bottom: 40px;
+  }
+
+  .footer-link {
+    margin-left: auto;
+    align-self: flex-end;
+  }
+}
