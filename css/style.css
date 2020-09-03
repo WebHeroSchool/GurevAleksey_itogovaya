@@ -587,6 +587,7 @@
   .arrow-downd:hover {
     transform: scale(1.2);
   }
+
   .future-drive {
     display: flex;
     flex-direction: column;
@@ -674,7 +675,7 @@
     line-height: 24px;
     font-weight: normal;
   }
-  
+
   .future-drive-list__item:nth-child(1) {
     margin-bottom: 20px;
     padding-left: 60px;
@@ -1135,7 +1136,7 @@
   .article-footer {
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-left: 30px;
     font-size: 13px;
     line-height: 16px;
@@ -1155,7 +1156,7 @@
     padding: 15px 38px;
     color: #fff;
     background-color: #e51937;
-    border: 2px solid #FFF;
+    border: 2px solid #fff;
   }
 
   .safe-car {
@@ -1167,10 +1168,6 @@
     min-width: 440px;
     background-color: #e51937;
     color: #fff;
-  }
-
-  .article-text {
-    margin-bottom: 50px;
   }
 
   .safe-list {
@@ -1241,10 +1238,6 @@
     margin-right: 10px;
     padding-top: 7px;
     text-transform: uppercase;
-  }
-
-  .article-footer {
-    margin-bottom: 40px;
   }
 
   .footer-link {
