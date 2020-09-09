@@ -992,7 +992,7 @@
   .menu__link:last-child {
     margin-right: 0;
   }
-  
+
   .menu__link:nth-child(1)::before {
     position: absolute;
     top: 25px;
