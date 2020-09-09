@@ -219,7 +219,7 @@
     margin-bottom: 45px;
   }
 
-  .container-text__tittle{
+  .container-text__tittle {
     margin: 0 0 5px 0;
     font-size: 30px;
     line-height: 37px;
@@ -838,7 +838,7 @@
 
   .model-img-car-ipad {
     order: 0;
-    padding-left: 0px;
+    padding-left: 0;
     padding-top: 80px;
     padding-bottom: 50px;
     width: 95%;
@@ -966,6 +966,7 @@
 
   .menu__link:nth-child(1) {
     margin-right: 60px;
+    color: #e51937;
   }
 
   .menu__link:nth-child(3) {
@@ -983,7 +984,7 @@
   .menu__link:nth-child(6) {
     margin-right: 37px;
   }
-  
+
   .menu__link:hover {
     color: #e51937;
   }
@@ -991,11 +992,7 @@
   .menu__link:last-child {
     margin-right: 0;
   }
-
-  .menu__link:nth-child(1) {
-    color: #e51937;
-  }
-
+  
   .menu__link:nth-child(1)::before {
     position: absolute;
     top: 25px;
