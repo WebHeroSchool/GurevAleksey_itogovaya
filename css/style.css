@@ -3,19 +3,19 @@
 }
 
 html,
-  body {
-    margin: 0;
-    font-family: 'montserrat-font', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    color: #000;
-  }
+body {
+  margin: 0;
+  font-family: 'montserrat-font', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #000;
+}
 
 a {
   text-decoration: none;
-  }
+}
 
-@media (max-width: 376px){
+@media (max-width: 376px) {
 
   .btn {
     padding: 10px 45px;
@@ -108,7 +108,7 @@ a {
   .container-image__title {
     position: absolute;
     width: 95%;
-    top: 0px;
+    top: 0;
     left: 5px;
   }
 
@@ -385,7 +385,7 @@ a {
     width: 120px;
   }
 
-  .safe-img{
+  .safe-img {
     margin: 0;
   }
 
@@ -708,8 +708,7 @@ a {
   }
 
   .container-text__text {
-    margin-top: 10px;
-    margin: auto 30px;
+    margin: 10 auto 30px 0;
     min-width: 300px;
     font-size: 15px;
     line-height: 18px;
@@ -873,7 +872,6 @@ a {
   }
 
   .container-safe-text {
-    margin: 0 auto;
     padding-top: 20px;
     margin: auto 40px;
     text-align: center;
@@ -1113,6 +1111,7 @@ a {
 
   .future-drive-img {
     margin: 0;
+    font-size: 0;
   }
 
   .future-drive__img {
@@ -1171,10 +1170,6 @@ a {
     font-size: 15px;
     line-height: 18px;
     font-weight: lighter;
-  }
-
-  .future-drive-img {
-    font-size: 0;
   }
 
   .future-drive-list {
@@ -2039,7 +2034,6 @@ a {
     margin-bottom: 0;
     font-size: 90px;
     line-height: 90px;
-
   }
 
   .discription-title {
@@ -2178,7 +2172,7 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
-    top: auto;
+    margin-top: auto;
     margin-left: auto;
     width: 440px;
     background-color: #e51937;
@@ -2211,10 +2205,6 @@ a {
     line-height: 18px;
     font-weight: lighter;
     letter-spacing: 1.1px;
-  }
-
-  .future-drive__img {
-    display: none;
   }
 
   .future-drive-list {
@@ -2260,7 +2250,7 @@ a {
   }
 
   .future-drive-list__item:nth-child(1) {
-    margin-left:5px ;
+    margin-left: 5px;
     margin-bottom: 30px;
     padding-left: 56px;
     min-height: 65px;
@@ -2323,8 +2313,8 @@ a {
     position: relative;
     display: flex;
     flex-direction: column-reverse;
-
   }
+
   .container-safe {
     display: flex;
     flex-direction: row;
@@ -2604,7 +2594,7 @@ a {
 
   .container-image__title {
     position: absolute;
-    top: 30px
+    top: 30px;
   }
 
   .container-image__img-car {
